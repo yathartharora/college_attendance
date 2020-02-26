@@ -58,7 +58,7 @@ while True:
 	#print(len(live_frame_encodings))
 	for i in live_frame_encodings:
 		matches = face_recognition.compare_faces(known_face_encodings,i,0.4)
-		print(matches)
+		#print(matches)
 
 		#if True in matches:
 		for j in range(len(matches)):
